@@ -1,0 +1,146 @@
+/*  LAYOUT  */
+
+html, body {
+  
+  min-width: 1200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+html {
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+.container {
+  
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.clearfix::before, 
+.clearfix::after {
+  
+  content: "";
+  display: table;
+  
+}
+
+.clearfix::after {
+  
+  clear: both;
+  
+}
+
+.page_header {
+  
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.visually-hidden {
+  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: none;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  
+}
+
+/*  /LAYOUT  */
+
+/*  BUTTON  */
+
+.btn {
+  
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  
+}
+
+.btn-middle {
+  
+  width: 208px;
+  border-radius: 18px;
+  background-color: #54d154;
+  color: #ffffff;
+
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.btn-offers {
+  
+  width: 120px;
+  border-radius: 10px;
+  background-color: #54d154;
+  color: #ffffff;
+  
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: none;
+  text-align: center;
+  
+}
+
+.btn-morework {
+  
+  width: 186px;
+  border-radius: 14px;
+  background-color: #2b9b2b;
+  color: #ffffff;
+  
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: none;
+ 
+}
+
+.btn-happyclients {
+  
+  width: 186px;
+  border-radius: 14px;
+  background-color: #dddcdc;
+  color: #a59d9d;
+
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: none;
+  
+}
+
+
+/*  /BUTTON  */
