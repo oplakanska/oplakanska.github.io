@@ -1,0 +1,176 @@
+/*  HEADER  */
+
+
+.page_header,
+.navigation_menu,
+.navigation_item,
+.brand,
+.brand_name,
+.search_box {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.page_header {
+  
+  display: block;
+  width: 100%;
+  height: 37px;
+  padding-top: 0px;
+  margin-bottom: -37px;
+  background-color: transparent;
+  
+  position: relative;
+  z-index: 1;
+  
+}
+
+
+/*  /HEADER  */
+
+/*  NAVIGATION  */
+
+
+.navigation_menu {
+  
+  float: left;
+  display: block;
+  width: 350px;
+  margin: 0 30px 0 15px;
+}
+
+.navigation {
+  
+  list-style: none;
+  text-align: left;
+  
+}
+
+.navigation_item {
+  
+  list-style: none;
+  
+}
+
+.navigation_link {
+  
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.navigation-main {
+  
+  font-size: 0;
+  line-height: 0;
+  vertical-align: top;
+  
+}
+
+.navigation-main .navigation_item {
+  
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  font-size: 16px;
+  line-height: 37px;
+  text-transform: capitalize;
+  
+}
+
+.navigation-main .navigation_item:last-child {
+  
+  margin-right: 0;
+  
+}
+
+.navigation-main .navigation_link {
+  
+  font-size: inherit;
+  line-height: inherit;
+  color: #ffffff;
+  border-top: 5px solid transparent;
+  
+}
+
+.navigation-main .navigation_link:hover {
+  
+  font-weight: 600;
+  border-top: 5px solid 54d154;
+  
+}
+
+
+/*  /NAVIGATION  */
+
+/*  BRAND  */
+
+
+.brand {
+  
+  float: left;
+  width: 350px;
+  margin: 0 15px;
+  
+}
+
+.brand_link {
+  
+  display: block;
+  font-family: 'Nautilus Pompilius', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 37px;
+  text-decoration: none;
+  color: inherit;
+    
+}
+
+/*  /BRAND  */
+
+
+
+/*  SEARCHBOX  */
+
+
+.search_box {
+  
+  float: left;
+  width: 350px;
+  margin: 0 15px 0 30px;
+  
+  background-color: transparent;
+  color: #ffffff;
+  
+  display: block;
+    
+}
+
+.search_field {
+  width: 177px
+  background-color: rgba (255, 255, 255, 0.8);
+  color: #111111;
+
+}
+
+.toolsbar .cart_icon,
+.toolsbar .search_icon {
+  
+  font-size: 20px;
+  line-height: 55px;
+  
+  cursor: pointer;
+  
+}
+
+.cart_icon:hover,
+.search_icon:hover {
+  
+  color: #c7b299;
+  
+}
+
+
+/*  /TOOLSBAR  */

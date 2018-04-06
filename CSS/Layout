@@ -142,5 +142,20 @@ html {
   
 }
 
+.btn-workwithus {
+  
+  width: 175px;
+  border-radius: 14px;
+  background-color: #54d154;
+  color: #ffffff;
+
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
 
 /*  /BUTTON  */
