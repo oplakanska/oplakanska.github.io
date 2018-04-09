@@ -36,7 +36,7 @@
   float: left;
   display: block;
   width: 350px;
-  margin: 0 30px 0 15px;
+  margin: 0 15px 0 30px;
 }
 
 .navigation {
@@ -96,7 +96,7 @@
 .navigation-main .navigation_link:hover {
   
   font-weight: 600;
-  border-top: 5px solid 54d154;
+  border-top: 5px solid #54d154;
   
 }
 
@@ -134,7 +134,7 @@
   
   float: left;
   width: 350px;
-  margin: 0 15px 0 30px;
+  margin: 0 30px 0 15px;
   border: none;
   background-color: transparent;
   display: block;
