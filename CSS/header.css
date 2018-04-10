@@ -149,6 +149,7 @@
   display: inline-block;
   width: 177px;
   height: 27px;
+  padding-top: 5px;
   outline: none;
   border: none;
   border-radius: 9px;
@@ -162,6 +163,7 @@
   float: left;
   width: 146px;
   height: 27px;
+  border: none;
 
   font-family: 'Proxima Nova', sans-serif;
   font-weight: 300;
@@ -176,6 +178,7 @@
 float: right;
 width: 31px;
 height: 27px;
+border: none;
 cursor: pointer;
 background-image: url(img/magnifying-glass.JPEG) no-repeat;
 
