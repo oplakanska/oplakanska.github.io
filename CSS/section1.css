@@ -1,0 +1,30 @@
+.toppage,
+.toppage_slogan,
+{
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.toppage {
+  
+  display: block;
+  border: none;
+  width: auto;
+
+  background-image: url("../img/sec1_background.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  
+}
+
+.toppage_slogan {
+	
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  top: 50;
+  text-align: center;
+}
