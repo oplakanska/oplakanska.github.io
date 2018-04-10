@@ -112,6 +112,7 @@
   float: left;
   width: 350px;
   margin: 0 15px;
+  text-align: center;
   
 }
 
@@ -139,7 +140,7 @@
   margin: 0 45px 0 15px;
   border: none;
   background-color: transparent;
-  display: inline-block;
+  display: block;
     
 }
 
@@ -175,7 +176,7 @@
 width: 31px;
 height: 27px;
 cursor: pointer;
-background: url(img/magnifying-glass.jpeg) no-repeat 50% 50%;
+background: url(img/magnifying-glass.jpeg) no-repeat;
 
 }
 
