@@ -160,6 +160,7 @@
 
 .field {
   
+  float: left;
   width: 146px;
   height: 27px;
 
@@ -173,10 +174,11 @@
 
 .searchbtn {
 
+float: right;
 width: 31px;
 height: 27px;
 cursor: pointer;
-background-image: url(img/magnifying-glass.jpeg) no-repeat;
+background-image: url(img/magnifying-glass.JPEG) no-repeat;
 
 }
 
