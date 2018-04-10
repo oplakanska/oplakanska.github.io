@@ -36,7 +36,7 @@
   float: left;
   display: block;
   width: 350px;
-  margin: 0 15px 0 30px;
+  margin: 0 15px 0 45px;
 }
 
 .navigation {
@@ -136,7 +136,7 @@
   
   float: left;
   width: 350px;
-  margin: 0 30px 0 15px;
+  margin: 0 45px 0 15px;
   border: none;
   background-color: transparent;
   display: inline-block;
